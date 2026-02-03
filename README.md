@@ -25,3 +25,29 @@ This project implements a machine learning–based sentiment analysis system tha
 ---
 
 ## 📂 Project Structure
+Customer-Review-Sentiment-Analysis/
+├── data/
+│ └── README.md
+├── sentiment_analysis.py
+└── README.md
+
+---
+
+## 📊 Dataset
+Amazon Fine Food Reviews Dataset  
+https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews  
+
+*Dataset is not uploaded due to size constraints.*
+
+---
+
+## ▶️ How to Run
+```bash
+pip install pandas numpy scikit-learn nltk
+python sentiment_analysis.py
+Observations:
+- The model performs well on positive and negative reviews, with slightly lower performance on neutral reviews due to overlapping sentiment patterns.
+- TF-IDF combined with Logistic Regression provides a good balance between accuracy and computational efficiency.
+Results
+The model achieves strong performance with good accuracy and balanced precision, recall, and F1-score across all sentiment classes.
+
